@@ -1,0 +1,23 @@
+@font-face {
+    font-family:'o';
+    src: url('../font/o Light.eot');
+	src: url('../font/o Light.eot?#iefix') format('embedded-opentype'),
+		url('../font/o Light.woff2') format('woff2'),
+		url('../font/o Light.woff') format('woff'),
+		url('../font/o Light.svg#o Light') format('svg');
+    font-style: normal;
+    font-stretch: normal;
+}
+
+
+@font-face {
+    font-family:'Roboto Condensed';
+    src: url('../font/Roboto Condensed Bold.eot');
+    src: url('../font/Roboto Condensed Bold.eot?#iefix') format('embedded-opentype'),
+    url('../font/Roboto Condensed Bold.woff2') format('woff2'),
+    url('../font/Roboto Condensed Bold.woff') format('woff'),
+    url('../font/Roboto Condensed Bold.svg#Roboto Condensed Bold') format('svg');
+   font-weight: 700;
+    font-style: normal;
+    font-stretch: condensed;
+}
