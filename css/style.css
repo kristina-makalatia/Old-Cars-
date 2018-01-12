@@ -483,57 +483,78 @@ input[type="radio"], input[type="checkbox"] {
 		font-size:23px;
 	}
 } 
-
-@media( max-width:1180px){
-	.date{
-		bottom: 120px;
-	}
+@media( max-width:1235px){
+    .date{
+        bottom: 120px;
+    }
 } 
-
 @media( max-width:1070px){
 	.text-right{
 		font-size:28px;
+            bottom: 60px;
 	}
 	.date p{
 		font-size: 29px;
 	}
 }
-
-@media( max-width: 950px){
-	.date{
-		bottom: 100px;
-	}
+@media( max-width: 1100px){
+    .date{
+        bottom: 90px;
+    }
 }
-@media( max-width: 850px){
+
+@media( max-width: 890px){
 	.date{
-		bottom: 90px;
+		bottom: 80px;
 	}
+    .text-right{
+        font-size:22px;
+    }
+    .date p{
+        font-size: 25px;
+    }
 }
 @media( max-width: 780px){
 	.date{
 		bottom: 70px;
 	}
 }
+@media( max-width: 700px){
+    .date{
+        bottom: 50px;
+    }
+}
 @media( max-width: 650px){
-	.date{
-		bottom: 50px;
-	}
-	.text-right{
-		font-size:22px;
-	}
-	.date p{
-		font-size: 25px;
-	}
+	 .text-right{
+        font-size:18px;
+    }
+    .date p{
+        font-size: 20px;
+    }
+}
+@media( max-width: 540px){
+     .text-right{
+        font-size:14px;
+    }
+    .date p{
+        font-size: 18px;
+    }
+    .date{
+        bottom: 40px;
+    }
+    .social-icon-txt{
+   margin-right: 30px;
+}
 }
 @media( max-width: 480px){
 	.date{
 		bottom: 30px;
 	}
 	.text-right{
-		font-size:16px;
+		font-size:14px;
 	}
 	.date p{
-		font-size: 20px;
+		font-size: 17px;
 	}
 }
 
